@@ -70,12 +70,12 @@ header ul li {
     margin-top: 100px;
 }
 .frame {
-    border: 1px solid rgb(173, 170, 170);
+    border: 1px solid rgb(241, 234, 234);
     height: 260px;
     width: 600px;
     display: inline-block;
     margin-left: 200px;
-    margin-top: 200px;
+    margin-top: 80px;
 }
 .ui_ux {
     font-size: 25px;
@@ -149,57 +149,119 @@ header ul li {
     width: 400px;
     margin-left: 70px;
 }
-#my_portfolio {
+.my_portfolio {
     font-family: "Arbutus Slab", serif;
-    font-size: 30px;
+    font-size: 40px;
     margin-left: 800px; 
     margin-top: 500px;
 }
 .one_img {
-    background-image: url("./post_2.jpg.webp");
+    background-size: cover;
+    border-radius: 5px;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 370px;
     width: 500px;
-    margin-left: 200px;
 }
 .two_img {
-    background-image: url("./post_3.jpg.webp");
+    background-size: cover;
+    border-radius: 5px;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 370px;
     width: 500px;
-    margin-left: 200px;
 }
 .three_img {
-    background-image: url("./post_4.jpg.webp");
+    background-size: cover;
+    border-radius: 5px;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 370px;
     width: 500px;
-    margin-left: 200px;
 }
 .four_img {
-    background-image: url("./post_5.jpg.webp");
+    background-size: cover;
+    border-radius: 5px;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 370px;
     width: 500px;
-    margin-left: 200px;
 }
 .five_img {
-    background-image: url("./post_2.jpg.webp");
     background-repeat: no-repeat;
-    height: 300px;
+    height: 370px;
     width: 500px;
-    margin-left: 200px;
+    background-size: cover;
+    border-radius: 5px;
 }
 .six_img {
-    background-image: url("./post_2.jpg.webp");
+    background-size: cover;
+    border-radius: 5px;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 370px;
     width: 500px;
-    margin-left: 200px;
 }
-.one_setir {
+.images {
     display: inline-block;
+    margin-left: 72px;
+    margin-top: 100px;
 }
-.two_setir {
+.testimonials_color {
+    background-color: #343a40;
+    height: 700px;
+    margin-top: 100px;
+}
+.testimonials {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 140px;
+    color: #fff;
+    font-family: "Arbutus Slab", serif;
+    font-weight: 100;
+}
+.testimonials_alt_color {
+    background-color: #fff;
+    height: 3px;
+    width: 70px;
+    margin-top: 22px;
+    margin-left: 866px;
+}
+.testimonials_lorem {
+    text-align: center;
+    padding-top: 100px;
+    font-weight: 200;
+    font-size: 22px;
+    color: #fff;
+    display: block;
+    box-sizing: border-box;
+    font-family: "Arbutus Slab", serif;
+}
+.carl_spencer {
+    margin-top: 50px;
+    text-align: center;
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 24px;
+    font-style: italic;
+}
+.clients {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Arbutus Slab", serif;
+    font-weight: 200;
+    margin-top: 150px;
+}
+
+.logos {
     display: inline-block;
+    margin-left: 270px;
+    height: 200px;
+    width: 200px;
+    margin-top: 80px;
 }
+.logos1 {
+    height: 200px;
+    width: 270px;
+}
+.contact_form {
+    font-size: 40px;
+    text-align: center;
+    font-family: "Arbutus Slab", serif;
+    margin-top: 300px;
+}
+    
