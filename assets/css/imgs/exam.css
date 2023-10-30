@@ -1,11 +1,15 @@
-*{
+* {
     margin : 0;
     padding : 0;
     list-style : none ;
     text-decoration : none;
     box-sizing: border-box;
 }
+.container {
+    width: 100%;
+}
 header ul {
+    background-color: transparent;
     text-align: center;
     height: 130px;
 }
@@ -71,23 +75,36 @@ header ul li {
 }
 .frame {
     border: 1px solid rgb(241, 234, 234);
-    height: 260px;
+    height: 300px;
     width: 600px;
     display: inline-block;
     margin-left: 200px;
     margin-top: 80px;
 }
+.laptop {
+    width: 20px;
+    height: 20px;
+    margin-left: 39px;
+    margin-top: 39px;
+}
+div.img_color {
+    background-color: #207561;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    padding-top: 100px;
+}
 .ui_ux {
     font-size: 25px;
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 120px;
     font-family: "Arbutus Slab", serif;
     font-weight: 100;
 }
 .lorem {
-    font-size: 26px;
+    font-size: 20px;
     margin-top: 20px;
-    margin-left: 30px;
+    margin-left: 120px;
     font-family: "Arbutus Slab", serif;
     color: #666666;
 }
@@ -223,7 +240,8 @@ header ul li {
     margin-left: 866px;
 }
 .testimonials_lorem {
-    text-align: center;
+    width: 900px;
+    margin-left: 500px;
     padding-top: 100px;
     font-weight: 200;
     font-size: 22px;
@@ -262,6 +280,160 @@ header ul li {
     font-size: 40px;
     text-align: center;
     font-family: "Arbutus Slab", serif;
-    margin-top: 300px;
+    margin-top: 250px;
 }
-    
+#name_1 {
+    margin-top: 100px;
+    margin-left: 140px;
+    height: 55px;
+    width: 700px;
+    color: #666666;
+    font-size: 22px;
+    padding-left: 20px;
+    display: inline-block;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    font-family: "Arbutus Slab", serif;
+}
+#name_2 {
+    color: #666666;
+    display: block;
+    margin-left:140px;
+    margin-top: 70px;
+    padding-left: 20px;
+    font-size: 22px;
+    height: 55px;
+    width: 1544px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    font-family: "Arbutus Slab", serif;
+}
+.send_message {
+    width: 200px;
+    height: 55px;
+    border: 0;
+    font-family: "Arbutus Slab", serif;
+    border-radius: 50px;
+    margin-left: 140px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #154d40;
+}
+.send_message:hover {
+    background-color: #000;
+}
+.footer_five {
+    height: 500px;
+    width: 100%;
+    margin-top: 130px;
+    background-color:#F8F9FA;
+    display: inline-block;
+}
+.sssss {
+    display: inline-block;
+    margin-left: 140px;
+    font-size: 23px;
+    font-weight: 200;
+    font-family: "Arbutus Slab", serif;
+}
+.fffff {
+    display: block;
+    font-size: 19px;
+    width: 320px;
+    color: #666666;
+    margin-top: 30px;
+    font-family: "Arbutus Slab", serif;
+}
+.hhhhh {
+    display: block;
+    font-size: 19px;
+    color: #666666;
+    font-family: "Arbutus Slab", serif;
+}
+.all {
+    margin-top: 100px;
+}
+.face {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+.copyright {
+    font-family: "Arbutus Slab", serif;
+    font-size: 19px;
+    color: #666666;
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .all {
+    display: inline-block;
+    margin-left: 140px;
+}
+.add {
+    width: 310px;
+    margin-top: 100px;
+}
+.me_address {
+    font-size: 23px;
+    color: #1a1a1a;
+    font-weight: 200;
+    font-family: "Arbutus Slab", serif;
+}
+.fake {
+    color: #666666;
+    margin-top: 30px;
+    font-size: 19px;
+    font-family: "Arbutus Slab", serif;
+}
+.all_two {
+    display: inline-block;
+}
+.all_three {
+    display: inline-block;
+}
+.all_four {
+    display: inline-block;
+}
+
+
+
+
+
+
+ */
